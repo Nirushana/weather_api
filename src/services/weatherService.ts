@@ -25,3 +25,16 @@ export const generateDublinWeatherData = (): WeatherData => {
   // Return weather data
   return generatedWeatherData;
 };
+
+export const generateLondonForecastData = (): ForecastData => {
+  // Generate random weather data
+  const generatedForecastData: ForecastData = {
+    dayOne: 14,
+    dayTwo: 23,
+    dayThree: 17
+  };
+
+  // Return weather data
+  return generatedForecastData;
+};
+
